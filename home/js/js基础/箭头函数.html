@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // 第一种：有两个函数，其实只需要（）：没有或者两个或者以上需要（）一个就是=，
+    //正常格式：名字=有无括号=>功能
+    // let sum=(a,b) =>a+b;//必须连起来写
+    // alert(sum(2,4))
+    // let double=(n)=>n*(n+2)
+    // alert('n='+double(102))
+    // let no=()=>alert('没有任何东西哦')
+    // no()//必须有（）
+    let age=prompt('你猜你是不是人？',10);//原来这个promopt是不能够传入字符串的
+    let welcome=(age >10) ? 
+    () =>alert('牛逼，你是人') :
+    () =>alert('可以，你不是人哦')
+    welcome();
+</script>
+<body>
+    <p>1</p>
+</body>
+</html>

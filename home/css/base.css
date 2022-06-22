@@ -1,0 +1,72 @@
+/* æŠŠæˆ‘ä»¬æ‰€æœ‰æ ‡ç­¾çš„å†…å¤–è¾¹è·æ¸…é›¶ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* em å’Œ i æ–œä½“çš„æ–‡å­—ä¸å€¾æ–œ */
+em,
+i {
+  font-style: normal;
+}
+/* åŽ»æŽ‰li çš„å°åœ†ç‚¹ */
+li {
+  list-style: none;
+}
+
+img {
+  /* border 0 ç…§é¡¾ä½Žç‰ˆæœ¬æµè§ˆå™¨ å¦‚æžœ å›¾ç‰‡å¤–é¢åŒ…å«äº†é“¾æŽ¥ä¼šæœ‰è¾¹æ¡†çš„é—®é¢˜ */
+  border: 0;
+  /* å–æ¶ˆå›¾ç‰‡åº•ä¾§æœ‰ç©ºç™½ç¼éš™çš„é—®é¢˜ */
+  vertical-align: middle;
+}
+
+button {
+  /* å½“æˆ‘ä»¬é¼ æ ‡ç»è¿‡button æŒ‰é’®çš„æ—¶å€™ï¼Œé¼ æ ‡å˜æˆå°æ‰‹ */
+  cursor: pointer;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c81623;
+}
+
+button,
+input {
+  /* "\5B8B\4F53" å°±æ˜¯å®‹ä½“çš„æ„æ€ è¿™æ ·æµè§ˆå™¨å…¼å®¹æ€§æ¯”è¾ƒå¥½ */
+  font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+  /* é»˜è®¤æœ‰ç°è‰²è¾¹æ¡†ï¼Œéœ€è¦æˆ‘ä»¬æ‰‹åŠ¨åŽ»é™¤ */
+  border: 0;
+  outline: none;
+}
+
+body {
+  /* CSS3 æŠ—é”¯é½¿å½¢ è®©æ–‡å­—æ˜¾ç¤ºçš„æ›´åŠ æ¸…æ™° */
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+  color: #666;
+}
+
+.hide,
+.none {
+  display: none;
+}
+/* æ¸…é™¤æµ®åŠ¨ */
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}

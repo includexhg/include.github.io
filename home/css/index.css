@@ -1,0 +1,181 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.newflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border: 1px dotted #ffffff;
+}
+
+.news-hd .news-header {
+    margin-left: 17px;
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd .news-src {
+    float: right;
+    font-size: 13px;
+    margin-right: 18px;
+}
+
+.news-bd{
+    width: 250px;
+    /* height: 132px; */
+    padding: 5px 15px;
+}
+.news-bd ul li {
+    margin-bottom: 9px;
+    /* 京东做法:将超出部分显示为...号 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lifeservice {
+    height: 209px;
+    border: 1px solid #ddd;
+    border-top: 0;
+    overflow: hidden;
+}
+.lifeservice ul{
+    /* 根据li的宽度来设置ul的宽度 */
+    width: 256px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 64px;
+    height: 71px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.lifeservice ul li:nth-child(-n+4){
+    border-top: 1px solid #ddd;
+}
+.lifeservice ul li i{
+    display: inline-block;
+    width: 18px;
+    height: 24px;
+    background-color: aqua;
+    margin-top: 13px;
+    background: url(../images/icons.png) no-repeat -19px -17px;
+}
+.newflash .bargain {
+    height: 80px;
+    margin-top: 7px;
+}
+.newflash .bargain a img{
+    width: 251px;
+    height: 73px;
+}
+/* 推荐recm的样式 */
+.recom{
+    height: 163px;
+    margin-top: 13px;
+}        
+.recom-hd a img{
+    float: left;
+    width: 200px;
+    height: 161px;
+    background-color: #5c5251;
+    text-align: center;
+    line-height: 161px;
+}                                                                                                                    
+.recom-bd ul li{
+    float: left;
+    width: 250px;
+    height: 164px;
+    position: relative;
+}
+.recom-bd ul li a img{
+    width: 250px;
+    height: 164px;
+}
+.recom-bd ul li :nth-child(-n+3)::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top:0px;
+    width: 1px;
+    height: 164px;
+    background-color: #ddd;
+}
+/* 开始floor代码 */
+/* jiadian代码 */
+.box-hd{
+    height: 30px;
+    border-bottom: 2px solid #e2162f;
+}
+.box-hd h3{
+    font-size: 18px;
+    font-weight: 500;
+    float: left;
+    /* margin-bottom: 10px; */
+}
+.box-hd .fr{
+    float: right;
+}
+.box-hd .fr ul li{
+    float: left;
+    line-height: 30px;
+    margin-right: 13px;
+}
+.box-hd .fr ul li a{
+    margin: 0px 15px;
+}
+.floor>div{
+    margin-top: 30px;
+}
+.box-bd{
+    height: 361px;
+}
+/* tab-content */
+.tab_list_item>div{
+    float: left;
+    height: 361px;
+    text-align: center;
+}
+.tab_1{
+    width: 210px;
+}
+.tab_1 ul{
+    padding: 0px 12px;
+}
+.tab_1 ul li{
+    width: 85px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 8px;
+}
+.tab_2{
+    width: 328px;
+}
+.tab_3{
+    width: 220px;
+}
+.tab_4{
+    width: 221px;
+}
