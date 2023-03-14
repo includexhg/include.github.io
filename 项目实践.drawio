@@ -1,11 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T12:14:00.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="0I2FgBrNXOyH0dQxTz6C" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T12:16:25.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="gvqFHUq7X7nx8XE0VgeS" version="21.0.6" type="github">
   <diagram name="第 1 页" id="Fdgy_Q9sTbDUWi0A0H8j">
     <mxGraphModel dx="643" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6d0vDIdPtCshTIeItXxf-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ndarray&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
-          <mxGeometry x="150" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="6d0vDIdPtCshTIeItXxf-2" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;视频播放功能&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#143642;" edge="1" parent="1" source="6d0vDIdPtCshTIeItXxf-3" target="6d0vDIdPtCshTIeItXxf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-3" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;播放时暂停音频&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-4" value="确定暂停函数" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="530" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-7" value="调用" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="530" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-8" value="判断是否播放" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
