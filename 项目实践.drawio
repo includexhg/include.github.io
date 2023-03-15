@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T12:16:25.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="gvqFHUq7X7nx8XE0VgeS" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-15T07:39:59.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="NvK0qVdz5q-W5cKGeiYh" version="21.0.6" type="github">
   <diagram name="第 1 页" id="Fdgy_Q9sTbDUWi0A0H8j">
     <mxGraphModel dx="643" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,14 +13,55 @@
         <mxCell id="6d0vDIdPtCshTIeItXxf-3" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;播放时暂停音频&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
           <mxGeometry x="310" y="110" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;" edge="1" parent="1" source="6d0vDIdPtCshTIeItXxf-4" target="6d0vDIdPtCshTIeItXxf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6d0vDIdPtCshTIeItXxf-4" value="确定暂停函数" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
           <mxGeometry x="530" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;" edge="1" parent="1" source="6d0vDIdPtCshTIeItXxf-7" target="6d0vDIdPtCshTIeItXxf-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6d0vDIdPtCshTIeItXxf-7" value="调用" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
           <mxGeometry x="530" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6d0vDIdPtCshTIeItXxf-8" value="判断是否播放" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="440" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-9" value="&lt;div&gt;&amp;nbsp;if(this.$store.state.playing){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.$store.state.playing=false&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.doPauseAudio()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="730" y="240" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;" edge="1" parent="1" source="6d0vDIdPtCshTIeItXxf-12" target="6d0vDIdPtCshTIeItXxf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-12" value="最近播放功能" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="150" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-13" value="存储为本地数据 local_song&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#143642;" edge="1" parent="1" source="6d0vDIdPtCshTIeItXxf-14" target="6d0vDIdPtCshTIeItXxf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#143642;" edge="1" parent="1" source="6d0vDIdPtCshTIeItXxf-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-14" value="凡是点击了列表的&lt;br&gt;都添加到列表中" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="350" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-18" value="确定点击信息" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="350" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-19" value="已经存在了..." style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="540" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-20" value="let playlist = Storage.get_current_playlist();" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="550" y="640" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-21" value="后台继续播放功能" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="90" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
