@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T07:39:59.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="NvK0qVdz5q-W5cKGeiYh" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T10:36:17.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="bX2WkOJEh1p5U17g2HkE" version="21.0.6" type="github">
   <diagram name="第 1 页" id="Fdgy_Q9sTbDUWi0A0H8j">
     <mxGraphModel dx="643" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -62,6 +62,21 @@
         </mxCell>
         <mxCell id="6d0vDIdPtCshTIeItXxf-21" value="后台继续播放功能" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
           <mxGeometry x="90" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;" edge="1" parent="1" source="6d0vDIdPtCshTIeItXxf-22" target="6d0vDIdPtCshTIeItXxf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-22" value="如何去重?&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="190" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-23" value="" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="400" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-25" value="收藏功能" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6d0vDIdPtCshTIeItXxf-26" value="确定api&lt;br&gt;绑定事件" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontFamily=Helvetica;fontSize=12;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
